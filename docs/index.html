@@ -3,24 +3,81 @@
 	
 	<head>
 		<title>ATKit</title>
+		
+		<style>
+		body {
+			font-family: Helvetica, sans-serif, Arial;
+			font-size: 14px;
+			max-width: 800px;
+			margin: auto;
+		}
+		pre {
+			font-family: Courier-New, monospace;
+			font-size: 14px;
+			background-color: #EEEEEE;
+			color: #37474f;
+			padding: 10px;
+		}
+		li {
+			padding: 4px;
+		}
+		</style>
 	</head>
 	
 	<body>
 	
 	<h1 id="atkit">ATKit</h1>
 	
-	<h3 id="helpbook">HelpBook</h3>
+	<h2 id="helpbook">HelpBook</h2>
 	
 	<ul>
 		<li><strong>On Github</strong>: <a href="https://aurvan.github.io/atkit-ios-release/helpbook/">https://aurvan.github.io/atkit-ios-release/helpbook/</a></li>
 		<li><strong>On Author Website</strong>: <a href="https://www.aurvan.com/com-aurvan-www/htcontents/atkit-ios/helpbook/">https://www.aurvan.com/com-aurvan-www/htcontents/atkit-ios/helpbook/</a></li>
 	</ul>
 	
-	<h3 id="reportbug">Report Bug</h3>
+	<h2 id="reportbug">Report Bug</h2>
 	
 	<ul>
 		<li><strong>GitHub Issue</strong>: <a href="https://github.com/aurvan/atkit-ios-release/issues/">https://github.com/aurvan/atkit-ios-release/issues/</a></li>
 	</ul>
+	
+	
+	
+	<h2 id="install">Install the Framework</h2>
+	
+	
+	<h3>- Manually</h3>
+	<ul>
+		<li>Download the framework files from GitHub. <a href="https://github.com/aurvan/atkit-ios-release/raw/master/framework/atkit-framework-v1.0-swift3.2.zip">DOWNLOAD HERE</a></li>
+		
+		<li>Unzip the framework files.</li>
+		
+		<li>With your project open in Xcode, choose your <b>Target</b>. Under the <b>General</b> tab, find <b>Embedded Binaries</b> and then choose the <b>+</b> button.</li>
+		
+		<li>Choose Add Other. Select <b>ATKit.framework</b>. When prompted, select <b>Copy items if needed</b></li>
+	</ul>
+	
+	
+	<h3>- Using CocoaPods</h3>
+	<p>The Aurvan.com ATKit for iOS is available as a CocoaPods pod. CocoaPods is an open source dependency manager for Swift and Objective-C Cocoa projects.</p>
+	<ul>
+		<li>Create a Podfile and use it to install the Framework and its dependencies.
+			<pre>$ pod init</pre>
+		</li>
+		
+		<li>Edit the Podfile and add pod details as below.
+			<pre>
+target 'APPLICATION_TARGET_NAME' do
+# Pods for APPLICATION_TARGET_NAME
+	pod "com.aurvan.ATKit.iOS", "1.0"
+end</pre>
+		</li>
+		
+		<li>Run the pod install command. This will install the APIs specified in the Podfile, along with any dependencies they may have.
+			<pre>$ pod install</pre>
+		</li>
+	</ul>
+	
 	
 	</body>
 	
