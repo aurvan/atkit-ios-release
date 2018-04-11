@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Date Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/Date" class="dashAnchor"></a>
+    <a title="Date Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ATKit Docs</a></p>
+        <p class="header-right"><a href="https://github.com/aurvan/atkit-ios-release"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ATKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Date Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ATCheckbox.html">ATCheckbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManager.html">ATHttpConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerRequest.html">ATHttpConnectionManagerRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResponse.html">ATHttpConnectionManagerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResult.html">ATHttpConnectionManagerResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATKit.html">ATKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATProgressOverlay.html">ATProgressOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATTextView.html">ATTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATToast.html">ATToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATWindow.html">ATWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ATMimeType.html">ATMimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ATToastType.html">ATToastType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIImageScaleMode.html">UIImageScaleMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Date</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Date</span> <span class="p">:</span> <span class="kt">ReferenceConvertible</span><span class="p">,</span> <span class="kt">Comparable</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitEACSgSS10dateString_SS0D6FormatAA6LocaleV6locateAA8TimeZoneV04timeJ0tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(dateString:dateFormat:locate:timeZone:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitEACSgSS10dateString_SS0D6FormatAA6LocaleV6locateAA8TimeZoneV04timeJ0tcfc">init(dateString:dateFormat:locate:timeZone:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Custom initializer.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">NSLog</span><span class="p">(</span><span class="s">"Date: %@"</span><span class="p">,</span> <span class="kt">NSDate</span><span class="p">(</span><span class="nv">dateFormat</span><span class="p">:</span> <span class="s">"EEEE, dd-MMM-yyyy 'at' hh:mm:ss a Z"</span><span class="p">))</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>init?(dateString pDateString :String, dateFormat pDateFormat :String, locate pLocate :Locale = Locale.current, timeZone pTimeZone :TimeZone = TimeZone.current)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">dateString</span> <span class="nv">pDateString</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n">dateFormat</span> <span class="nv">pDateFormat</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n">locate</span> <span class="nv">pLocate</span> <span class="p">:</span><span class="kt">Locale</span> <span class="o">=</span> <span class="kt">Locale</span><span class="o">.</span><span class="n">current</span><span class="p">,</span> <span class="n">timeZone</span> <span class="nv">pTimeZone</span> <span class="p">:</span><span class="kt">TimeZone</span> <span class="o">=</span> <span class="kt">TimeZone</span><span class="o">.</span><span class="n">current</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pDateString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String. Date represented as string.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pDateFormat</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String. Date format.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pLocate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Locale. Locate in which date should be formatted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pTimeZone</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>TimeZone. TimeZone in which date should be formatted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String. Formatted date.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE6stringS2S10dateFormat_AA6LocaleV6locateAA8TimeZoneV04timeJ0tF"></a>
+                    <a name="//apple_ref/swift/Method/string(dateFormat:locate:timeZone:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE6stringS2S10dateFormat_AA6LocaleV6locateAA8TimeZoneV04timeJ0tF">string(dateFormat:locate:timeZone:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to get formatted date.</p>
+
+<p><strong>Date format as below,</strong></p>
+
+<ul>
+<li>yyyy: Year in four digits. E.g. 1234</li>
+<li>MM: Month in two digits. E.g. 01</li>
+<li>MMM: Month name in three letters. E.g. Jan</li>
+<li>MMMM: Month name in full. E.g. January</li>
+<li>dd: Date with prefixed zero. E.g. 01</li>
+<li>E: Day name in three letter. E.g. Sun</li>
+<li>HH: Hour as 24 hour clock with prefixed zero. E.g. 13</li>
+<li>hh: Hour as 12 hour clock with prefixed zero. E.g. 13</li>
+<li>mm: Minute in two digits. E.g. 45</li>
+<li>ss: Second in two digits. E.g. 12</li>
+<li>a: AM, PM in upper case. E.g. AM, PM</li>
+<li>Z: Timezone in four digits with +-sign. E.g. +0530</li>
+<li>z: Timezone with name and hour:minute without prefixed zero. E.g. GMT+5:30</li>
+<li>ZZZZ, zzzz: Timezone with name and hour:minute with prefixed zero. E.g. GMT+05:30</li>
+<li>XXX, xxx: Timezone (without Z for zero) as hour:minute with prefixed zero. E.g. +05:30</li>
+</ul>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">NSLog</span><span class="p">(</span><span class="s">"Date: %@"</span><span class="p">,</span> <span class="kt">NSDate</span><span class="p">()</span><span class="o">.</span><span class="nf">string</span><span class="p">(</span><span class="nv">dateFormat</span><span class="p">:</span> <span class="s">"EEEE, dd-MMM-yyyy 'at' hh:mm:ss a Z"</span><span class="p">))</span>
+<span class="kt">NSLog</span><span class="p">(</span><span class="s">"Date: %@"</span><span class="p">,</span> <span class="kt">NSDate</span><span class="p">()</span><span class="o">.</span><span class="nf">string</span><span class="p">(</span><span class="nv">dateFormat</span><span class="p">:</span> <span class="s">"EEEE, dd-MMM-yyyy 'at' hh:mm:ss a Z"</span><span class="p">),</span> <span class="nv">timeZone</span><span class="p">:</span> <span class="kt">TimeZone</span><span class="p">(</span><span class="nv">identifier</span><span class="p">:</span> <span class="s">"GMT"</span><span class="p">))</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>init?(dateString pDateString :String, dateFormat pDateFormat :String, locate pLocate :Locale = Locale.current, timeZone pTimeZone :TimeZone = TimeZone.current)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">string</span><span class="p">(</span><span class="n">dateFormat</span> <span class="nv">pDateFormat</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n">locate</span> <span class="nv">pLocate</span> <span class="p">:</span><span class="kt">Locale</span> <span class="o">=</span> <span class="kt">Locale</span><span class="o">.</span><span class="n">current</span><span class="p">,</span> <span class="n">timeZone</span> <span class="nv">pTimeZone</span> <span class="p">:</span><span class="kt">TimeZone</span> <span class="o">=</span> <span class="kt">TimeZone</span><span class="o">.</span><span class="n">current</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pDateFormat</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String. Date format.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pLocate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Locale. Locate in which date should be formatted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pTimeZone</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>TimeZone. TimeZone in which date should be formatted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String. Formatted date.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE10startOfDayACv"></a>
+                    <a name="//apple_ref/swift/Property/startOfDay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE10startOfDayACv">startOfDay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get start-of-the-date from the date. E.g. if the date is 01-Jan-2001T01:01:01+0000 then startOfDay is 01-Jan-2001T00:00:00+0000</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">startOfDay</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    var endOfDay :Date`
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">startOfDay</span> <span class="p">:</span><span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE8endOfDayACv"></a>
+                    <a name="//apple_ref/swift/Property/endOfDay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE8endOfDayACv">endOfDay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get end-of-the-date from the date. E.g. if the date is 01-Jan-2001T01:01:01+0000 then endOfDay is 01-Jan-2001T23:59:59+0000</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">endOfDay</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    var startOfDay :Date`
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">endOfDay</span> <span class="p">:</span><span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE4yearSiSgv"></a>
+                    <a name="//apple_ref/swift/Property/year" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE4yearSiSgv">year</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get year from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">year</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var month :Int?</code> <code>var day :Int?</code> <code>var hour :Int?</code> <code>var minute :Int?</code> <code>var second :Int?</code> <code>var nanosecond :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">year</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE5monthSiSgv"></a>
+                    <a name="//apple_ref/swift/Property/month" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE5monthSiSgv">month</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get month from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">month</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var day :Int?</code> <code>var hour :Int?</code> <code>var minute :Int?</code> <code>var second :Int?</code> <code>var nanosecond :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">month</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE3daySiSgv"></a>
+                    <a name="//apple_ref/swift/Property/day" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE3daySiSgv">day</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get day from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">day</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var month :Int?</code> <code>var hour :Int?</code> <code>var minute :Int?</code> <code>var second :Int?</code> <code>var nanosecond :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">day</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE4hourSiSgv"></a>
+                    <a name="//apple_ref/swift/Property/hour" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE4hourSiSgv">hour</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get hour from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">hour</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var month :Int?</code> <code>var day :Int?</code> <code>var minute :Int?</code> <code>var second :Int?</code> <code>var nanosecond :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hour</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE6minuteSiSgv"></a>
+                    <a name="//apple_ref/swift/Property/minute" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE6minuteSiSgv">minute</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get minute from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">minute</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var month :Int?</code> <code>var day :Int?</code> <code>var hour :Int?</code> <code>var second :Int?</code> <code>var nanosecond :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">minute</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE6secondSiSgv"></a>
+                    <a name="//apple_ref/swift/Property/second" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE6secondSiSgv">second</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get second from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">second</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var month :Int?</code> <code>var day :Int?</code> <code>var hour :Int?</code> <code>var minute :Int?</code> <code>var nanosecond :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">second</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE10nanosecondSiSgv"></a>
+                    <a name="//apple_ref/swift/Property/nanosecond" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE10nanosecondSiSgv">nanosecond</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get nanosecond from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">nanosecond</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var month :Int?</code> <code>var day :Int?</code> <code>var hour :Int?</code> <code>var minute :Int?</code> <code>var second :Int?</code> <code>var weekday :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">nanosecond</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Foundation4DateV5ATKitE7weekdaySiSgv"></a>
+                    <a name="//apple_ref/swift/Property/weekday" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Foundation4DateV5ATKitE7weekdaySiSgv">weekday</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get weekday from the date.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aDate</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">()</span>
+<span class="n">aDate</span><span class="o">.</span><span class="n">weekday</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var year :Int?</code> <code>var month :Int?</code> <code>var day :Int?</code> <code>var hour :Int?</code> <code>var minute :Int?</code> <code>var second :Int?</code> <code>var nanosecond :Int?</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">weekday</span> <span class="p">:</span><span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.aurvan.com" target="_blank" rel="external">Aurvan.com</a>. All rights reserved. (Last updated: 2018-04-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

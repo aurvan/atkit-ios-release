@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ATHttpConnectionManagerRequest Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ATHttpConnectionManagerRequest" class="dashAnchor"></a>
+    <a title="ATHttpConnectionManagerRequest Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ATKit Docs</a></p>
+        <p class="header-right"><a href="https://github.com/aurvan/atkit-ios-release"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ATKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ATHttpConnectionManagerRequest Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ATCheckbox.html">ATCheckbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManager.html">ATHttpConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerRequest.html">ATHttpConnectionManagerRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResponse.html">ATHttpConnectionManagerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResult.html">ATHttpConnectionManagerResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATKit.html">ATKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATProgressOverlay.html">ATProgressOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATTextView.html">ATTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATToast.html">ATToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATWindow.html">ATWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ATMimeType.html">ATMimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ATToastType.html">ATToastType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIImageScaleMode.html">UIImageScaleMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ATHttpConnectionManagerRequest</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>The ATHttpConnectionManagerRequest allows to create a request for ATHttpConnectionManager.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)isLogEnabled"></a>
+                    <a name="//apple_ref/swift/Property/isLogEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)isLogEnabled">isLogEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to enable / disable the logs for the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">isLogEnabled</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    It is recommended to disable the logs for production release.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isLogEnabled</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)url"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)url">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set a URL for the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">url</span> <span class="o">=</span> <span class="kt">URL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"https://example.com/"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var httpMethod :String?</code> <code>func addHttpHeader(name :String, value :String)</code> <code>func removeHttpHeader(name :String)</code> <code>func addHttpParameter(name :String, value :Data)</code> <code>func removeHttpParameter(name :String)</code> <code>func addHttpAttachment(_ :ATHttpConnectionManagerAttachment)</code> <code>func addHttpAttachment(requestParameterName :String, attachmentData :Data)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">url</span> <span class="p">:</span><span class="kt">URL</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpMethod"></a>
+                    <a name="//apple_ref/swift/Property/httpMethod" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpMethod">httpMethod</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set an HTTP method (GET, POST, PUT etc.) for the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">httpMethod</span> <span class="o">=</span> <span class="s">"POST"</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>var url :URL?</code> <code>func addHttpHeader(name :String, value :String)</code> <code>func removeHttpHeader(name :String)</code> <code>func addHttpParameter(name :String, value :Data)</code> <code>func removeHttpParameter(name :String)</code> <code>func addHttpAttachment(_ :ATHttpConnectionManagerAttachment)</code> <code>func addHttpAttachment(requestParameterName :String, attachmentData :Data)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">httpMethod</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpHeaders"></a>
+                    <a name="//apple_ref/swift/Property/httpHeaders" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpHeaders">httpHeaders</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get http headers added to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">httpHeaders</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func addHttpHeader(name :String, value :String)</code> <code>func removeHttpHeader(name :String)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">httpHeaders</span> <span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpBody"></a>
+                    <a name="//apple_ref/swift/Property/httpBody" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpBody">httpBody</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set/get http body of the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">httpBody</span> <span class="o">=</span> <span class="s">"{</span><span class="se">\"</span><span class="s">request</span><span class="se">\"</span><span class="s">:</span><span class="se">\"</span><span class="s">submit</span><span class="se">\"</span><span class="s">}"</span><span class="o">.</span><span class="nf">data</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span><span class="o">.</span><span class="n">utf8</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>If &lsquo;var httpBody&rsquo; is provided, then &lsquo;var httpParameters&rsquo; will be ignored while sending http request body.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>var httpParameters :[String:Data]?</code> <code>func addHttpParameter(name :String, value :Data)</code> <code>func removeHttpParameter(name :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">httpBody</span> <span class="p">:</span><span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpParameters"></a>
+                    <a name="//apple_ref/swift/Property/httpParameters" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpParameters">httpParameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get http parameters added to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">httpParameters</span>
+</code></pre>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>If &lsquo;var httpBody&rsquo; is provided, then &lsquo;var httpParameters&rsquo; will be ignored while sending http request body.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>func addHttpParameter(name :String, value :Data)</code> <code>func removeHttpParameter(name :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">httpParameters</span> <span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">Data</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpAttachments"></a>
+                    <a name="//apple_ref/swift/Property/httpAttachments" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpAttachments">httpAttachments</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get http attachments added to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">httpAttachments</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func addHttpAttachment(_ :ATHttpConnectionManagerAttachment)</code> <code>func addHttpAttachment(requestParameterName :String, attachmentData :Data)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">httpAttachments</span> <span class="p">:</span><span class="kt">Array</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a></span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)endOfPartString"></a>
+                    <a name="//apple_ref/swift/Property/endOfPartString" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)endOfPartString">endOfPartString</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set end of the part for the multipart request. Mostly it is &ndash; or \r\n.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="n">endOfPartString</span> <span class="o">=</span> <span class="s">"</span><span class="se">\r\n</span><span class="s">"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">endOfPartString</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)init"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)init">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)initWithUrl:httpMethod:"></a>
+                    <a name="//apple_ref/swift/Method/init(url:httpMethod:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)initWithUrl:httpMethod:">init(url:httpMethod:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Custom initializer.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"http://google.com"</span><span class="p">)</span><span class="o">!</span><span class="p">,</span> <span class="nv">httpMethod</span><span class="p">:</span> <span class="s">"POST"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>init(urlString pUrlString :String, httpMethod pHttpMethod :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/ATHttpConnectionManagerRequest.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)url">url</a></span> <span class="nv">pUrl</span> <span class="p">:</span><span class="kt">URL</span><span class="p">,</span> <span class="n"><a href="../Classes/ATHttpConnectionManagerRequest.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpMethod">httpMethod</a></span> <span class="nv">pHttpMethod</span> <span class="p">:</span><span class="kt">String</span> <span class="o">=</span> <span class="s">"GET"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pUrl</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>URL. URL to which request is to be made.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pHttpMethod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String. HTTP method e.g. GET, POST, PUT etc.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)initWithUrlString:httpMethod:"></a>
+                    <a name="//apple_ref/swift/Method/init(urlString:httpMethod:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)initWithUrlString:httpMethod:">init(urlString:httpMethod:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Custom initializer.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">(</span><span class="nv">urlString</span><span class="p">:</span> <span class="s">"http://google.com"</span><span class="p">,</span> <span class="nv">httpMethod</span><span class="p">:</span> <span class="s">"POST"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>init(url pUrl :URL, httpMethod pHttpMethod :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">urlString</span> <span class="nv">pUrlString</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n"><a href="../Classes/ATHttpConnectionManagerRequest.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(py)httpMethod">httpMethod</a></span> <span class="nv">pHttpMethod</span> <span class="p">:</span><span class="kt">String</span> <span class="o">=</span> <span class="s">"GET"</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pUrlString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String. URL as string to which request is to be made.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pHttpMethod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String. HTTP method e.g. GET, POST, PUT etc.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpHeaderWithName:value:"></a>
+                    <a name="//apple_ref/swift/Method/addHttpHeader(name:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpHeaderWithName:value:">addHttpHeader(name:value:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to add HTTP header to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">addHttpHeader</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">"Content-Type"</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="s">"application/json"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func removeHttpHeader(name :String)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addHttpHeader</span><span class="p">(</span><span class="n">name</span> <span class="nv">pName</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n">value</span> <span class="nv">pValue</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the http header.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Value of the http header.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)removeHttpHeaderWithName:"></a>
+                    <a name="//apple_ref/swift/Method/removeHttpHeader(name:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)removeHttpHeaderWithName:">removeHttpHeader(name:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to remove HTTP header from the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">removeHttpHeader</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">"Content-Type"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func addHttpHeader(name :String, value :String)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeHttpHeader</span><span class="p">(</span><span class="n">name</span> <span class="nv">pName</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the http header.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpParameterWithName:value:"></a>
+                    <a name="//apple_ref/swift/Method/addHttpParameter(name:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpParameterWithName:value:">addHttpParameter(name:value:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to add HTTP parameter to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">addHttpParameter</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">"first_name"</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="s">"Tony"</span><span class="o">.</span><span class="nf">data</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span><span class="o">.</span><span class="n">utf8</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">addHttpParameter</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">"last_name"</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="s">"Stark"</span><span class="o">.</span><span class="nf">data</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span><span class="o">.</span><span class="n">utf8</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>If &lsquo;var httpBody&rsquo; is provided, then &lsquo;var httpParameters&rsquo; will be ignored while sending http request body.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>func removeHttpParameter(name :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addHttpParameter</span><span class="p">(</span><span class="n">name</span> <span class="nv">pName</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n">value</span> <span class="nv">pValue</span> <span class="p">:</span><span class="kt">Data</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the http parameter.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pValue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Value of the http parameter.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)removeHttpParameterWithName:"></a>
+                    <a name="//apple_ref/swift/Method/removeHttpParameter(name:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)removeHttpParameterWithName:">removeHttpParameter(name:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to remove HTTP parameter from the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">removeHttpParameter</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">"first_name"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func addHttpParameter(name :String, value :String)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeHttpParameter</span><span class="p">(</span><span class="n">name</span> <span class="nv">pName</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the http parameter.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpAttachment:"></a>
+                    <a name="//apple_ref/swift/Method/addHttpAttachment(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpAttachment:">addHttpAttachment(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to add HTTP attachment to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">anAvatarImage</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">()</span> <span class="c1">// Assign image as you want</span>
+<span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">(</span><span class="nv">requestParameterName</span><span class="p">:</span> <span class="s">"user_avatar"</span><span class="p">,</span> <span class="nv">fileTitle</span><span class="p">:</span> <span class="s">"Avatar"</span><span class="p">,</span> <span class="nv">fileExtension</span><span class="p">:</span> <span class="s">"jpg"</span><span class="p">,</span> <span class="nv">fileData</span><span class="p">:</span> <span class="kt">UIImageJPEGRepresentation</span><span class="p">(</span><span class="n">anAvatarImage</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">)</span><span class="o">!</span><span class="p">,</span> <span class="nv">shouldEncodeInBase64</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">addHttpAttachment</span><span class="p">(</span><span class="n">anAttachment</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>If &lsquo;var httpBody&rsquo; is provided, then &lsquo;var httpAttachments&rsquo; will be ignored while sending http request body.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>func addHttpAttachment(requestParameterName pRequestParameterName :String, attachmentData pAttachmentData :Data)</code> <code>func removeHttpAttachment(requestParameterName pRequestParameterName :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addHttpAttachment</span><span class="p">(</span><span class="n">_</span> <span class="nv">pAttachment</span> <span class="p">:</span><span class="kt"><a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pAttachment</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object of ATHttpConnectionManagerAttachment class with attachment details.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpAttachmentWithRequestParameterName:attachmentData:"></a>
+                    <a name="//apple_ref/swift/Method/addHttpAttachment(requestParameterName:attachmentData:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)addHttpAttachmentWithRequestParameterName:attachmentData:">addHttpAttachment(requestParameterName:attachmentData:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to add HTTP attachment to the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">anAvatarImage</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">()</span> <span class="c1">// Assign image as you want</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">addHttpAttachment</span><span class="p">(</span><span class="nv">requestParameterName</span><span class="p">:</span> <span class="s">"user_avatar"</span><span class="p">,</span> <span class="nv">attachmentData</span><span class="p">:</span> <span class="kt">UIImageJPEGRepresentation</span><span class="p">(</span><span class="n">anAvatarImage</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>If &lsquo;var httpBody&rsquo; is provided, then &lsquo;var httpAttachments&rsquo; will be ignored while sending http request body.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>func addHttpAttachment(_ pAttachment :ATHttpConnectionManagerAttachment)</code> <code>func removeHttpAttachment(requestParameterName pRequestParameterName :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addHttpAttachment</span><span class="p">(</span><span class="n">requestParameterName</span> <span class="nv">pRequestParameterName</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n">attachmentData</span> <span class="nv">pAttachmentData</span> <span class="p">:</span><span class="kt">Data</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRequestParameterName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Http request parameter name.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pAttachmentData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Http attachment data.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)removeHttpAttachmentWithRequestParameterName:"></a>
+                    <a name="//apple_ref/swift/Method/removeHttpAttachment(requestParameterName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerRequest(im)removeHttpAttachmentWithRequestParameterName:">removeHttpAttachment(requestParameterName:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to remove HTTP attachment from the request.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">aRequest</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerRequest</span><span class="p">()</span> <span class="c1">// Create request will added attachments</span>
+<span class="n">aRequest</span><span class="o">.</span><span class="nf">removeHttpAttachment</span><span class="p">(</span><span class="nv">requestParameterName</span><span class="p">:</span> <span class="s">"user_avatar"</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func addHttpParameter(name :String, value :String)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeHttpAttachment</span><span class="p">(</span><span class="n">requestParameterName</span> <span class="nv">pRequestParameterName</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRequestParameterName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the http parameter for the attachment.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.aurvan.com" target="_blank" rel="external">Aurvan.com</a>. All rights reserved. (Last updated: 2018-04-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

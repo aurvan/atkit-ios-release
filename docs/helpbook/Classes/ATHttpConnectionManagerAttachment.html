@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ATHttpConnectionManagerAttachment Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ATHttpConnectionManagerAttachment" class="dashAnchor"></a>
+    <a title="ATHttpConnectionManagerAttachment Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ATKit Docs</a></p>
+        <p class="header-right"><a href="https://github.com/aurvan/atkit-ios-release"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ATKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ATHttpConnectionManagerAttachment Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ATCheckbox.html">ATCheckbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManager.html">ATHttpConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerRequest.html">ATHttpConnectionManagerRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResponse.html">ATHttpConnectionManagerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResult.html">ATHttpConnectionManagerResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATKit.html">ATKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATProgressOverlay.html">ATProgressOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATTextView.html">ATTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATToast.html">ATToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATWindow.html">ATWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ATMimeType.html">ATMimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ATToastType.html">ATToastType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIImageScaleMode.html">UIImageScaleMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ATHttpConnectionManagerAttachment</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>The ATHttpConnectionManagerAttachment allows to send an attachment to server via ATHttpConnectionManager.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)requestParameterName"></a>
+                    <a name="//apple_ref/swift/Property/requestParameterName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)requestParameterName">requestParameterName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set-get the name of the request parameter.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">()</span>
+<span class="n">anAttachment</span><span class="o">.</span><span class="n">requestParameterName</span> <span class="o">=</span> <span class="s">"user_avatar"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">requestParameterName</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileTitle"></a>
+                    <a name="//apple_ref/swift/Property/fileTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileTitle">fileTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set-get the file title of the attachment.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">()</span>
+<span class="n">anAttachment</span><span class="o">.</span><span class="n">fileTitle</span> <span class="o">=</span> <span class="s">"Avatar"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fileTitle</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileExtension"></a>
+                    <a name="//apple_ref/swift/Property/fileExtension" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileExtension">fileExtension</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set-get the file extension of the attachment.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">()</span>
+<span class="n">anAttachment</span><span class="o">.</span><span class="n">fileExtension</span> <span class="o">=</span> <span class="s">"jpg"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fileExtension</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileData"></a>
+                    <a name="//apple_ref/swift/Property/fileData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileData">fileData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set-get the file data of the attachment.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">()</span>
+<span class="n">anAttachment</span><span class="o">.</span><span class="n">fileData</span> <span class="o">=</span> <span class="kt">UIImageJPEGRepresentation</span><span class="p">(</span><span class="n">anAvatarImage</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">)</span><span class="o">!</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fileData</span> <span class="p">:</span><span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)shouldEncodeInBase64"></a>
+                    <a name="//apple_ref/swift/Property/shouldEncodeInBase64" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)shouldEncodeInBase64">shouldEncodeInBase64</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to enable/disable the base 64 encoding of the file data of the attachment.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">()</span>
+<span class="n">anAttachment</span><span class="o">.</span><span class="n">shouldEncodeInBase64</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldEncodeInBase64</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(im)init"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(im)init">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(im)initWithRequestParameterName:fileTitle:fileExtension:fileData:shouldEncodeInBase64:"></a>
+                    <a name="//apple_ref/swift/Method/init(requestParameterName:fileTitle:fileExtension:fileData:shouldEncodeInBase64:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(im)initWithRequestParameterName:fileTitle:fileExtension:fileData:shouldEncodeInBase64:">init(requestParameterName:fileTitle:fileExtension:fileData:shouldEncodeInBase64:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method allows to initialize the class.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">anAvatarImage</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">()</span> <span class="c1">// Assign image as you want</span>
+<span class="k">let</span> <span class="nv">anAttachment</span> <span class="o">=</span> <span class="kt">ATHttpConnectionManagerAttachment</span><span class="p">(</span><span class="nv">requestParameterName</span><span class="p">:</span> <span class="s">"user_avatar"</span><span class="p">,</span> <span class="nv">fileTitle</span><span class="p">:</span> <span class="s">"Avatar"</span><span class="p">,</span> <span class="nv">fileExtension</span><span class="p">:</span> <span class="s">"jpg"</span><span class="p">,</span> <span class="nv">fileData</span><span class="p">:</span> <span class="kt">UIImageJPEGRepresentation</span><span class="p">(</span><span class="n">anAvatarImage</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">)</span><span class="o">!</span><span class="p">,</span> <span class="nv">shouldEncodeInBase64</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Classes/ATHttpConnectionManagerAttachment.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)requestParameterName">requestParameterName</a></span> <span class="nv">pRequestParameterName</span> <span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="n"><a href="../Classes/ATHttpConnectionManagerAttachment.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileTitle">fileTitle</a></span> <span class="nv">pFileTitle</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="n"><a href="../Classes/ATHttpConnectionManagerAttachment.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileExtension">fileExtension</a></span> <span class="nv">pFileExtension</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="n"><a href="../Classes/ATHttpConnectionManagerAttachment.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)fileData">fileData</a></span> <span class="nv">pFileData</span> <span class="p">:</span><span class="kt">Data</span><span class="p">,</span> <span class="n"><a href="../Classes/ATHttpConnectionManagerAttachment.html#/c:@M@ATKit@objc(cs)ATHttpConnectionManagerAttachment(py)shouldEncodeInBase64">shouldEncodeInBase64</a></span> <span class="nv">pShouldEncodeInBase64</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRequestParameterName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the http request parameter.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pFileTitle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Title (name without extension) of the file attached.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pFileExtension</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Extension of the file attached.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pFileData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Data of the file attached.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pShouldEncodeInBase64</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Variable to state if the attachment should be encoded with base64 algorithm.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.aurvan.com" target="_blank" rel="external">Aurvan.com</a>. All rights reserved. (Last updated: 2018-04-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

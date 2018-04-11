@@ -1,0 +1,8 @@
+{
+	"error" : null
+	, "user" : {
+		"emailAddress" : "neo@example.com"
+		, "firstName" : "Neo"
+		, "lastName" : "Anderson"
+	}
+}

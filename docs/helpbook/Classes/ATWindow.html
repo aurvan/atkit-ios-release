@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ATWindow Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ATWindow" class="dashAnchor"></a>
+    <a title="ATWindow Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ATKit Docs</a></p>
+        <p class="header-right"><a href="https://github.com/aurvan/atkit-ios-release"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ATKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ATWindow Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ATCheckbox.html">ATCheckbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManager.html">ATHttpConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerRequest.html">ATHttpConnectionManagerRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResponse.html">ATHttpConnectionManagerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResult.html">ATHttpConnectionManagerResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATKit.html">ATKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATProgressOverlay.html">ATProgressOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATTextView.html">ATTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATToast.html">ATToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATWindow.html">ATWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ATMimeType.html">ATMimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ATToastType.html">ATToastType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIImageScaleMode.html">UIImageScaleMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ATWindow</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ATWindow</span><span class="p">:</span> <span class="kt">UIWindow</span></code></pre>
+
+                </div>
+              </div>
+            <p>The ATWindow adds various functionalities to UIWindow, e.g. dismiss keyboard on tap on screen, adjust text-field frame as per keyboard visible/hidden.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(py)shouldDismissKeyboardOnTap"></a>
+                    <a name="//apple_ref/swift/Property/shouldDismissKeyboardOnTap" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(py)shouldDismissKeyboardOnTap">shouldDismissKeyboardOnTap</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to dismiss the keyboard on tapping anywhere outside the editable controls (UITextField, UITextView etc.).</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="p">(</span><span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">keyWindow</span> <span class="k">as!</span> <span class="kt">ATWindow</span><span class="p">)</span><span class="o">.</span><span class="n">shouldDismissKeyboardOnTap</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre>
+<li>You can write above line of code in <code>application:didFinishLaunchingWithOptions:</code>, <code>viewDidLoad</code> or any other suitable method.</li>
+<li><p>Make sure application keyWindow is initialized as ATWindow.</p></li>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>addDismissKeyboardExemptedRestorationId(_ pRestorationId :String)</code> <code>removeDismissKeyboardExemptedRestorationId(_ pRestorationId :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldDismissKeyboardOnTap</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(py)shouldAdjustPanForKeyboard"></a>
+                    <a name="//apple_ref/swift/Property/shouldAdjustPanForKeyboard" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(py)shouldAdjustPanForKeyboard">shouldAdjustPanForKeyboard</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to adjust window pan according to keyboard, i.e. when keyboard comes up, the application page will move up to make editable control (UITextField, UITextView etc.) visible.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="p">(</span><span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">keyWindow</span> <span class="k">as!</span> <span class="kt">ATWindow</span><span class="p">)</span><span class="o">.</span><span class="n">shouldAdjustPanForKeyboard</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre>
+<li>You can write above line of code in <code>application:didFinishLaunchingWithOptions:</code>, <code>viewDidLoad</code> or any other suitable method.</li>
+<li><p>Make sure application keyWindow is initialized as ATWindow.</p></li>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>addAdjustPanExemptedRestorationId(_ pRestorationId :String)</code> <code>removeAdjustPanExemptedRestorationId(_ pRestorationId :String)</code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldAdjustPanForKeyboard</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization%20/%20De-Initialization%20Methods"></a>
+                <a name="//apple_ref/swift/Section/Initialization / De-Initialization Methods" class="dashAnchor"></a>
+                <a href="#/Initialization%20/%20De-Initialization%20Methods">
+                  <h3 class="section-name">Initialization / De-Initialization Methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)initWithCoder:">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">coder</span> <span class="nv">pDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)initWithFrame:"></a>
+                    <a name="//apple_ref/swift/Method/init(frame:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)initWithFrame:">init(frame:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span><span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)awakeFromNib"></a>
+                    <a name="//apple_ref/swift/Method/awakeFromNib()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)awakeFromNib">awakeFromNib()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Overridden method from superclass.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">awakeFromNib</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Misc%20Methods"></a>
+                <a name="//apple_ref/swift/Section/Misc Methods" class="dashAnchor"></a>
+                <a href="#/Misc%20Methods">
+                  <h3 class="section-name">Misc Methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)addDismissKeyboardExemptedRestorationId:"></a>
+                    <a name="//apple_ref/swift/Method/addDismissKeyboardExemptedRestorationId(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)addDismissKeyboardExemptedRestorationId:">addDismissKeyboardExemptedRestorationId(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The function allows to exempt view from dismissing keyboard on tap on it.</p>
+
+<p>If you want that the keyboard should <strong>not</strong> be dismissed on tap on a specific view, then add its restoration ID using this method. You can set restoration ID for any view in nib, storyboard or via code.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="p">(</span><span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">keyWindow</span> <span class="k">as!</span> <span class="kt">ATWindow</span><span class="p">)</span><span class="o">.</span><span class="nf">addDismissKeyboardExemptedRestorationId</span><span class="p">(</span><span class="s">"firstNameContainerViewResId"</span><span class="p">)</span>
+</code></pre>
+<li>You can write above line of code in <code>application:didFinishLaunchingWithOptions:</code>, <code>viewDidLoad</code> or any other suitable method.</li>
+<li><p>Make sure application keyWindow is initialized as ATWindow.</p></li>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p><code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldDismissKeyboardOnTap">shouldDismissKeyboardOnTap</a></code> of ATWindow should be set as true.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>removeDismissKeyboardExemptedRestorationId(_ pRestorationId :String)</code> <code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldDismissKeyboardOnTap">shouldDismissKeyboardOnTap</a></code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addDismissKeyboardExemptedRestorationId</span><span class="p">(</span><span class="n">_</span> <span class="nv">pRestorationId</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRestorationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Restoration ID of a view that is to be exempted from dismissing the keyboard.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)removeDismissKeyboardExemptedRestorationId:"></a>
+                    <a name="//apple_ref/swift/Method/removeDismissKeyboardExemptedRestorationId(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)removeDismissKeyboardExemptedRestorationId:">removeDismissKeyboardExemptedRestorationId(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The function allows to remove the exempted views from dismissing keyboard on tap on it.</p>
+
+<p>If you have added a view to exempt keyboard dismissing, but now you dont want to exempt that view, then you can remove it using this method.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="p">(</span><span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">keyWindow</span> <span class="k">as!</span> <span class="kt">ATWindow</span><span class="p">)</span><span class="o">.</span><span class="nf">removeDismissKeyboardExemptedRestorationId</span><span class="p">(</span><span class="s">"firstNameContainerViewResId"</span><span class="p">)</span>
+</code></pre>
+<li>You can write above line of code in <code>application:didFinishLaunchingWithOptions:</code>, <code>viewDidLoad</code> or any other suitable method.</li>
+<li><p>Make sure application keyWindow is initialized as ATWindow.</p></li>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p><code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldDismissKeyboardOnTap">shouldDismissKeyboardOnTap</a></code> of ATWindow should be set as true.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>addDismissKeyboardExemptedRestorationId(_ pRestorationId :String)</code> <code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldDismissKeyboardOnTap">shouldDismissKeyboardOnTap</a></code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeDismissKeyboardExemptedRestorationId</span><span class="p">(</span><span class="n">_</span> <span class="nv">pRestorationId</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRestorationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Restoration ID of a view that is to be removed from exemption.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)addAdjustPanExemptedRestorationId:"></a>
+                    <a name="//apple_ref/swift/Method/addAdjustPanExemptedRestorationId(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)addAdjustPanExemptedRestorationId:">addAdjustPanExemptedRestorationId(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The function allows to exempt editable controls from adjusting pan according to keyboard.</p>
+
+<p>If you want that the window pan should <strong>not</strong> be adjusted according to keyboard for any specific editable control (UITextField, UITextView etc.), then add its restoration ID using this method. You can set restoration ID for any view in nib, storyboard or via code.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="p">(</span><span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">keyWindow</span> <span class="k">as!</span> <span class="kt">ATWindow</span><span class="p">)</span><span class="o">.</span><span class="nf">addAdjustPanExemptedRestorationId</span><span class="p">(</span><span class="s">"firstNameTextFieldResId"</span><span class="p">)</span>
+</code></pre>
+<li>You can write above line of code in <code>application:didFinishLaunchingWithOptions:</code>, <code>viewDidLoad</code> or any other suitable method.</li>
+<li><p>Make sure application keyWindow is initialized as ATWindow.</p></li>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p><code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldAdjustPanForKeyboard">shouldAdjustPanForKeyboard</a></code> of ATWindow should be set as true.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>removeAdjustPanExemptedRestorationId(_ pRestorationId :String)</code> <code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldAdjustPanForKeyboard">shouldAdjustPanForKeyboard</a></code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addAdjustPanExemptedRestorationId</span><span class="p">(</span><span class="n">_</span> <span class="nv">pRestorationId</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRestorationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Restoration ID of an editable control that is to be exempted from pan adjustment according to keyboard.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATWindow(im)removeAdjustPanExemptedRestorationId:"></a>
+                    <a name="//apple_ref/swift/Method/removeAdjustPanExemptedRestorationId(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATWindow(im)removeAdjustPanExemptedRestorationId:">removeAdjustPanExemptedRestorationId(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The function allows to remove the exempted editable controls from adjusting pan according to keyboard.</p>
+
+<p>If you have added an editable control to exempt window pan adjustment, but now you dont want to exempt that control, then you can remove it using this method.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="p">(</span><span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">keyWindow</span> <span class="k">as!</span> <span class="kt">ATWindow</span><span class="p">)</span><span class="o">.</span><span class="nf">removeAdjustPanExemptedRestorationId</span><span class="p">(</span><span class="s">"firstNameTextFieldResId"</span><span class="p">)</span>
+</code></pre>
+<li>You can write above line of code in <code>application:didFinishLaunchingWithOptions:</code>, <code>viewDidLoad</code> or any other suitable method.</li>
+<li><p>Make sure application keyWindow is initialized as ATWindow.</p></li>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p><code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldAdjustPanForKeyboard">shouldAdjustPanForKeyboard</a></code> of ATWindow should be set as true.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p><code>addAdjustPanExemptedRestorationId(_ pRestorationId :String)</code> <code><a href="../Classes/ATWindow.html#/c:@M@ATKit@objc(cs)ATWindow(py)shouldAdjustPanForKeyboard">shouldAdjustPanForKeyboard</a></code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAdjustPanExemptedRestorationId</span><span class="p">(</span><span class="n">_</span> <span class="nv">pRestorationId</span> <span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pRestorationId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Restoration ID of an editable control that is to be removed from exemption.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.aurvan.com" target="_blank" rel="external">Aurvan.com</a>. All rights reserved. (Last updated: 2018-04-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

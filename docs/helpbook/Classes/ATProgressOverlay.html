@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ATProgressOverlay Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ATProgressOverlay" class="dashAnchor"></a>
+    <a title="ATProgressOverlay Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ATKit Docs</a></p>
+        <p class="header-right"><a href="https://github.com/aurvan/atkit-ios-release"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ATKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ATProgressOverlay Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ATCheckbox.html">ATCheckbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManager.html">ATHttpConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerAttachment.html">ATHttpConnectionManagerAttachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerRequest.html">ATHttpConnectionManagerRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResponse.html">ATHttpConnectionManagerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATHttpConnectionManagerResult.html">ATHttpConnectionManagerResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATKit.html">ATKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATProgressOverlay.html">ATProgressOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATTextView.html">ATTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATToast.html">ATToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ATWindow.html">ATWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ATMimeType.html">ATMimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ATToastType.html">ATToastType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIImageScaleMode.html">UIImageScaleMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ATProgressOverlay</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ATProgressOverlay</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>The ATProgressOverlay creates an overlay that can be used to indicate any application activity and to disable user interaction with the application for some time.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(cpy)sharedInstance"></a>
+                    <a name="//apple_ref/swift/Variable/sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(cpy)sharedInstance">sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to get a singleton instance of the class.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sharedInstance</span> <span class="p">:</span><span class="kt">ATProgressOverlay</span> <span class="o">=</span> <span class="kt">ATProgressOverlay</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(py)shouldBlurBackground"></a>
+                    <a name="//apple_ref/swift/Property/shouldBlurBackground" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)shouldBlurBackground">shouldBlurBackground</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to have blur background for the progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">shouldBlurBackground</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldBlurBackground</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(py)backgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/backgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)backgroundColor">backgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set background color for the progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">red</span><span class="p">:</span> <span class="mf">135.0</span><span class="o">/</span><span class="mf">255.0</span><span class="p">,</span> <span class="nv">green</span><span class="p">:</span> <span class="mf">206.0</span><span class="o">/</span><span class="mf">255.0</span><span class="p">,</span> <span class="nv">blue</span><span class="p">:</span> <span class="mf">250.0</span><span class="o">/</span><span class="mf">255.0</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <code><a href="../Classes/ATProgressOverlay.html#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)shouldBlurBackground">shouldBlurBackground</a></code> should be set as false.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">backgroundColor</span> <span class="p">:</span><span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(py)activityIndicatorViewStyle"></a>
+                    <a name="//apple_ref/swift/Property/activityIndicatorViewStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)activityIndicatorViewStyle">activityIndicatorViewStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set the visual style of the activity indicator on progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">activityIndicatorViewStyle</span> <span class="o">=</span> <span class="kt">UIActivityIndicatorViewStyle</span><span class="o">.</span><span class="n">whiteLarge</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">activityIndicatorViewStyle</span> <span class="p">:</span><span class="kt">UIActivityIndicatorViewStyle</span> <span class="o">=</span> <span class="kt">UIActivityIndicatorViewStyle</span><span class="o">.</span><span class="n">white</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(py)isActivityIndicatorHidden"></a>
+                    <a name="//apple_ref/swift/Property/isActivityIndicatorHidden" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)isActivityIndicatorHidden">isActivityIndicatorHidden</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to hide / show the activity indicator on progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">isActivityIndicatorHidden</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isActivityIndicatorHidden</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(py)message"></a>
+                    <a name="//apple_ref/swift/Property/message" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)message">message</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set the message on progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">message</span> <span class="o">=</span> <span class="s">"Loading your request, please wait until response is received from the server."</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">message</span> <span class="p">:</span><span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(py)messageColor"></a>
+                    <a name="//apple_ref/swift/Property/messageColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(py)messageColor">messageColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The variable allows to set the message color on progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">messageColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">orange</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">messageColor</span> <span class="p">:</span><span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(im)showWithIsNetworkActivity:"></a>
+                    <a name="//apple_ref/swift/Method/show(isNetworkActivity:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(im)showWithIsNetworkActivity:">show(isNetworkActivity:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The function allows to show the progress overlay.</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span> <span class="c1">// Does not show network activity indicator on status bar.</span>
+
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">(</span><span class="nv">isNetworkActivity</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span> <span class="c1">// Shows network activity indicator on status bar.</span>
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func hide(force :Bool)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">show</span><span class="p">(</span><span class="n">isNetworkActivity</span> <span class="nv">pIsNetworkActivity</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pIsNetworkActivity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Parameter to show network activity indicator on status bar.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@ATKit@objc(cs)ATProgressOverlay(im)hideWithForce:"></a>
+                    <a name="//apple_ref/swift/Method/hide(force:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@ATKit@objc(cs)ATProgressOverlay(im)hideWithForce:">hide(force:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The function allows to hide the progress overlay.</p>
+
+<p>Note that if you call show method twice, then you have to call hide method twice to hide the overlay, otherwise call hide with force parameter as true. In short it goes like, 1) show - hide - show - hide 2) show - show - hide - hide 3) show - show - hide (force :true)</p>
+
+<p><strong>Usage Example</strong></p>
+<pre class="highlight swift"><code><span class="c1">// Scenario 1</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">hide</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">hide</span><span class="p">()</span>
+
+<span class="c1">// Scenario 2</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">hide</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">hide</span><span class="p">()</span>
+
+<span class="c1">// Scenario 3</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">show</span><span class="p">()</span>
+<span class="kt">ATProgressOverlay</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">hide</span><span class="p">(</span><span class="nv">force</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+
+</code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>func show(isNetworkActivity :Bool)</code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">hide</span><span class="p">(</span><span class="n">force</span> <span class="nv">pForce</span> <span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pForce</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Parameter to hide the progress overlay forcefully.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://www.aurvan.com" target="_blank" rel="external">Aurvan.com</a>. All rights reserved. (Last updated: 2018-04-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
